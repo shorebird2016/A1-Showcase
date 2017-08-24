@@ -11,8 +11,9 @@ A separate app will be created for Angular (A4) projects.
 ![X-Men tab](doc/x-men.png)    
 
 ## Links
-    Live demo: https://my-showcase-a1.herokuapp.com
-    Repository: https://github.com/shorebird2016/my-showcase-A1
+    Live demo: <https://my-showcase-a1.herokuapp.com>
+    Repository: 
+        https://github.com/shorebird2016/my-showcase-A1
     
 ## Dev Log
 
