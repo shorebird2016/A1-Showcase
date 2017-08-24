@@ -5,10 +5,10 @@ This project was created to
     (2) With the help of a special pane, user can view code associated with each project to quickly copy code.
 A separate app will be created for Angular (A4) projects.
     
-![Inspiration tab](doc/inspiration tab.png)    
-![Calculator tab](doc/calculator tab.png)    
-![Album tab](doc/album tab.png)    
-![X-Men tab](doc/x-men tab.png)    
+![Inspiration tab](doc/inspiration.png)    
+![Calculator tab](doc/calculator.png)    
+![Album tab](doc/album.png)    
+![X-Men tab](doc/x-men.png)    
 
 ## Links
     Live demo - https://my-showcase-a1.herokuapp.com
