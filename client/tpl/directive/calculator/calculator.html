@@ -1,0 +1,34 @@
+
+<div class="div-calc">
+    <div class="div-ttl">My Calculator</div>
+    <div class="div-lcd"><!-- display line and label -->
+        <span id="div-entry">{{CTRL.display}}</span>
+    </div>
+
+    <div class="div-buttons">
+        <button class="div-btn" value="7" ng-click="CTRL.digitClicked('7')">7</button>
+        <button class="div-btn" value="8" ng-click="CTRL.digitClicked('8')">8</button>
+        <button class="div-btn" value="9" ng-click="CTRL.digitClicked('9')">9</button>
+        <button class="div-btn" value="." ng-click="CTRL.periodClicked()">.</button>
+        <button class="div-btn div-bgblue" value="sign" ng-click="CTRL.signClicked()">+/-</button>
+        <button class="div-btn div-bgred" value="CE" ng-click="CTRL.ceClicked()">CE</button>
+        <button class="div-btn div-bgred" value="C" ng-click="CTRL.cClicked()">C</button>
+
+        <button class="div-btn" value="4" ng-click="CTRL.digitClicked('4')">4</button>
+        <button class="div-btn" value="5" ng-click="CTRL.digitClicked('5')">5</button>
+        <button class="div-btn" value="6" ng-click="CTRL.digitClicked('6')">6</button>
+        <button class="div-btn invisible" value="0">N</button>
+        <button class="div-btn div-bgblue" style="font-size: x-large" value="+" ng-click="CTRL.operatorClicked('+')">+</button>
+        <button class="div-btn div-bgblue" style="font-size: x-large" value="-" ng-click="CTRL.operatorClicked('-')">-</button>
+        <button class="div-btn invisible">=</button>
+
+        <button class="div-btn" value="1" ng-click="CTRL.digitClicked('1')">1</button>
+        <button class="div-btn" value="2" ng-click="CTRL.digitClicked('2')">2</button>
+        <button class="div-btn" value="3" ng-click="CTRL.digitClicked('3')">3</button>
+        <button class="div-btn div-zero" value="0" ng-click="CTRL.digitClicked('0')">0</button>
+        <button class="div-btn invisible">=</button>
+        <button class="div-btn div-bgblue" value="*" ng-click="CTRL.operatorClicked('x')">x</button>
+        <button class="div-btn div-bgblue" value="/" ng-click="CTRL.operatorClicked('/')">/</button>
+        <button class="div-btn div-bgblue div-equal" style="font-size: x-large" ng-click="CTRL.operatorClicked('=')">=</button>
+    </div>
+</div>

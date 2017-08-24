@@ -1,0 +1,13 @@
+
+.insp-block {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 1.2em;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-shadow: #666666 5px 5px 5px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    color: blue;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>A sample application</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="tpl/directive/x-men/actor-tile.css">
+    <link rel="stylesheet" href="tpl/directive/photo-box/photo-box.css">
+    <link rel="stylesheet" href="tpl/directive/my-inspiration/my-inspiration.css">
+    <link rel="stylesheet" href="tpl/directive/calculator/calculator.css">
+</head>
+<body ng-controller="myCtrl as CTRL">
+
+    <div class="app-header">
+        <ul>
+            <li class="menu-item"><a href="#!/setup">Inspiration</a></li>
+            <li class="menu-item"><a href="#!/inputs">Calculator</a></li>
+            <li class="menu-item"><a href="#!/outputs">Album</a></li>
+            <li class="menu-item"><a href="#!/processing">X-Men</a></li>
+        </ul>
+    </div>
+
+    <ng-view></ng-view>
+
+    <script src="lib/angular-1.6.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="lib/DecimalFormat.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

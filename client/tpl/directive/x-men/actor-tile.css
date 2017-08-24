@@ -1,0 +1,11 @@
+
+.actor-tile {
+    border: 1px lightblue solid;
+    border-radius: 5px;
+    box-shadow: #666666 3px 3px 2px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    width: 220px;
+    display: inline-block;
+    margin: 10px;
+}

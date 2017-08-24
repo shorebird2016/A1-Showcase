@@ -1,0 +1,23 @@
+
+.photo-block {
+    display: inline-block;
+    font-size: 1.2em;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-shadow: #666666 5px 5px 5px;
+    margin: 10px;
+    background: linear-gradient(20deg, white, lightgoldenrodyellow);
+    width: 250px;
+    color: blue;
+    /*transform: rotate(15deg) scale(0.9);*/
+}
+
+.photo-block p {
+    margin: 5px 0 0 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 250px;
+    margin: 15px;
+}
